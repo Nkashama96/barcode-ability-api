@@ -1,4 +1,4 @@
-import rarityTable from "../storage/rarity-table.json" assert { type: "json" };
+import rarityTable from "../storage/rarity-table.json" with { type: "json" };
 import { hashToNumber } from "./deterministic.js";
 
 

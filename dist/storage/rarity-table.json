@@ -1,0 +1,9 @@
+[
+    { "level": "L1", "abbr": "N", "rarity": "Normal", "weight": 7000 },
+    { "level": "L2", "abbr": "R", "rarity": "Rare", "weight": 2000 },
+    { "level": "L3", "abbr": "SR", "rarity": "Super Rare", "weight": 700 },
+    { "level": "L4", "abbr": "UR", "rarity": "Ultra Rare", "weight": 200 },
+    { "level": "L5", "abbr": "L", "rarity": "Legendary", "weight": 75 },
+    { "level": "L6", "abbr": "UL", "rarity": "Ultra Legendary", "weight": 20 },
+    { "level": "L7", "abbr": "UQ", "rarity": "Unique Legendary", "weight": 5 }
+]

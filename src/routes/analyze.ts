@@ -1,13 +1,11 @@
+import type { FastifyInstance } from "fastify";
 import fs from "fs";
 import path from "path";
 import { generateAbilities } from "../logic/abilities.js";
 
+const storagePath = path.resolve("src/storage/minted-hashes.json");
 
-const storagePath = path.resolve(
-  "src/storage/minted-hashes.json"
-);
-
-export async function analyzeRoute(app) {
+export async function analyzeRoute(app: FastifyInstance) {
   app.post("/analyze", async (req, reply) => {
     const { hash } = req.body as { hash: string };
 
