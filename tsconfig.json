@@ -1,15 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "outDir": "dist",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-
-    "strict": true,
-    "esModuleInterop": true,
-
+    "target": "ES2020",
     "resolveJsonModule": true,
-    "verbatimModuleSyntax": true,
-
-    "outDir": "dist"
+    "verbatimModuleSyntax": true
   }
 }
